@@ -1,0 +1,137 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+  # Profile information
+  name: Yinnan Zhou
+  tagline: <br>周荫南<br><br>M.Sc. Student<br>University of Science and Technology of China <br>
+  avatar: yinnan.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Sidebar links
+  email: yinnanzhou@mail.ustc.edu.cn
+  # phone:
+  # timezone: Beijing, China
+  website: yinnanzhou.github.io # do not add http://
+  github: github.com/yinnanzhou
+  resume: ./files/resume.pdf
+  # linkedin:
+  # xing:
+  # telegram: # add your nickname without '@' sign
+  # gitlab:
+  # bitbucket:
+  # twitter:
+  # stack-overflow: # Number/Username, e.g. 123456/alandoe
+  # codewars:
+  # goodreads: # Number-Username, e.g. 123456-alandoe
+  languages:
+    - idiom: Chinese
+      level: Native
+    - idiom: English
+      level: "IELTS: 6.5, CET-6: 526"
+  interests:
+    - item: Photography
+      # link: https://tuchong.com/xxx
+    - item: Music
+    - item: Basketball
+
+career-profile:
+  title: Biography
+  summary: |
+    I am a M.Sc. student in School of Computer Science and Technology at University of Science and Technology of China (USTC), advised by Prof. <a href="https://cs.ustc.edu.cn/2020/0905/c23239a460148/page.htm">Hao Zhou</a>. 
+    <br>Before I start my M.Sc. degree, I received my bachelor degree in School of Computer Science and Technology at Soochow University in Jun. 2023. 
+    <br>My research interests artificial intelligence and wireless sensing. 
+
+education:
+  - degree: M.Sc. in Computer Science and Technology
+    university: University of Science and Technology of China
+    time: Sept. 2023 - Present
+  - degree: B.Eng. in Computer Science and Technology
+    university: Soochow University
+    time: Sept. 2019 - Jun. 2023
+
+# publications:
+#   title: Publications
+#   intro: <a href="">Google Scholar</a> &nbsp; &nbsp; &nbsp; <a href="">ORCID</a> &nbsp; &nbsp; &nbsp; <a href="">DBLP</a> &nbsp; &nbsp; &nbsp; <a href="">Sematic Scholar</a>
+#   papers:
+#     - title: "XXX"
+#       tag: True
+#       authors: <b><u>XXX</u></b>, XXX
+#       conference: "XXX(<b>XXX '23</b>). Jan. 2001"
+#       other: <a href="">[PDF]</a> <a href="">[Codes]</a> <a href="">[Slides]</a>
+
+experiences:
+  title: experiences
+  contents:
+    - role: Research Intern
+      time: Nov. 2022 - Apr. 2023
+      location:  Beijing, China
+      company: |
+        Microsoft (Microsoft Research Asia) 
+        <br>Systems and Networking Research Group (SRG), mentored by RSR. <a href="https://www.likun.tech">Kunli</a>
+      details: |
+        Accelerated HF/DFT quantum chemistry calculation methods on CPU-GPU heterogeneous systems. Used computation
+        pruning, parallel solving and heterogeneous scheduling to optimize the algorithm. (C++ & CUDA)
+
+    - role: Software Engineer Intern
+      time: Jul. 2022 - Oct. 2022
+      company: | 
+        Microsoft (Microsoft Software Technology Center Asia)
+        <br>Data and Analysis Group (DnA), mentored by SR.SDE. Guo Yi
+      location:  Suzhou, China
+      details: |
+        Developed Intelligent Diagnostic Tool for troubleshooting upstream data in Teams Application, which automatically
+        collects abundant data in different upstream sources with required authentication, then analyzes data to locate
+        the problem and find out the cause, finally generates a comprehensive analysis report. (C# & React)
+
+# projects:
+#   title: Projects
+#   intro: 
+#   assignments: 
+#     - title: Simple language compiler based on C++
+#       link: 
+#       tagline: Implemented lexical analysis, syntax analysis, semantic analysis.
+
+#     - title: E-Nongbao wechat applet for rural service
+#       link: 
+#       tagline: Implemented homepage, information, application, and personal information page.
+
+#     - title: Intelligent analysis system of college students' mental health
+#       link: 
+#       tagline: Used network crawler to collect micro blogs for emotional analysis to judge the mental health status.
+
+awards:
+    - name: First Prize of Academic Excellence 
+      time: Sept. 2023 - Present
+      location: Hefei, China
+      committee: University of Science and Technology of China
+
+    - name: Excellent Graduate Student
+      time: Jun. 2023
+      location: Suzhou, China
+      committee: Soochow University
+
+    - name: | 
+        Top Prize of Academic Excellence, 
+        <br>First Prize of Research and Innovation, 
+        <br>Merit Student
+      time: Sept. 2019 - Jun. 2023
+      location: Suzhou, China
+      committee: Soochow University
+      
+
+
+skills:
+    title: Skills
+    toolset:
+      - name: C & C++
+        level: 75%
+      - name: CUDA
+        level: 55%
+      - name: Python
+        level: 70%
+      - name: Java
+        level: 60%
+      - name: Matlab
+        level: 65%
