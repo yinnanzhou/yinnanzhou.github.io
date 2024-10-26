@@ -200,16 +200,30 @@ p {
     .section {
         margin-bottom: 60px;
     }
-    
-    .experiences-section{
+
+    .experiences-section {
         .item {
             margin-bottom: 30px;
         }
     }
 
-    .awards-section{
+    .awards-section {
         .item {
             margin-bottom: 15px;
+        }
+    }
+
+    .mypublications-section {
+        .item {
+            margin-bottom: 15px;
+
+            .company {
+                color: gray;
+
+                b {
+                    color: $company;
+                }
+            }
         }
     }
 
@@ -269,7 +283,7 @@ p {
     }
 
     .publication-authors {
-        font-style: italic;
+        // font-style: italic; zyn
         color: $text-grey;
         margin-bottom: 1px;
     }

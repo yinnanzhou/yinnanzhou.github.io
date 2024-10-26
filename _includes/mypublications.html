@@ -1,0 +1,33 @@
+{% assign mypublications = site.data.data.mypublications %}
+{% if mypublications %}
+<section class="section mypublications-section">
+    <h2 class="section-title">
+        <span class="fa-stack fa-xs">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+        </span>
+        Publications
+    </h2>
+
+    {% for award in mypublications %}
+    <div class="item">
+
+        <div class="meta">
+
+            <div class="upper-row">
+                <div class="job-title">{{ award.name }}</div>
+                <div class="time">{{ award.time }}</div>
+            </div><!--//upper-row-->
+
+            <div class="upper-row">
+                <div class="time">{{ award.location }}</div>
+                <div class="publication-conference">{{ award.conference }}</div>
+            </div><!--//upper-row-->
+        </div><!--//meta-->
+
+        <div class="company">{{ award.authors }}</div>
+    </div><!--//item-->
+    {% endfor %}
+
+</section><!--//section-->
+{% endif %}
