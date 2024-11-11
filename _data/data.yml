@@ -15,7 +15,7 @@ sidebar:
   # timezone: Beijing, China
   website: yinnanzhou.github.io # do not add http://
   github: github.com/yinnanzhou
-  resume: ./files/resume.pdf
+  cv: ./files/cv.pdf
   # linkedin:
   # xing:
   # telegram: # add your nickname without '@' sign
@@ -65,7 +65,7 @@ education:
 mypublications:
   - name: |
       SaTrack: LoS/NLoS State-Aware WiFi Indoor Tracking System
-    conference: | 
+    conference: |
       IEEE International Conference on Sensing, Communication, and Networking
       <br>(Secon 2024) [CCF-B]
     time: Dec. 2024
@@ -75,7 +75,7 @@ mypublications:
   - name: |
       MELoc: Indoor localization system integrating  MUSIC and EM
       <br> algorithms
-    conference: | 
+    conference: |
       International Conference on Big Data Computing and Communications
       <br>(Bigcom 2024)
     time: Aug. 2024
@@ -140,17 +140,17 @@ awards:
     time: Sept. 2019 - Jun. 2023
     location: Suzhou, China
     committee: Soochow University
-
-skills:
-  title: Skills
-  toolset:
-    - name: C & C++
-      level: 75%
-    - name: CUDA
-      level: 55%
-    - name: Python
-      level: 70%
-    - name: Java
-      level: 60%
-    - name: Matlab
-      level: 65%
+    
+# skills:
+#   title: Skills
+#   toolset:
+#     - name: C & C++
+#       level: 75%
+#     - name: CUDA
+#       level: 55%
+#     - name: Python
+#       level: 70%
+#     - name: Java
+#       level: 60%
+#     - name: Matlab
+#       level: 65%
