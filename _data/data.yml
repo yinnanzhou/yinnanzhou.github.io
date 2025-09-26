@@ -85,6 +85,17 @@ mypublications:
 experiences:
   title: experiences
   contents:
+    - role: Software Engineer Intern
+      time: Jun. 2025 - Sep. 2025
+      company: |
+        Microsoft (Microsoft Software Technology Center Asia)
+        <br>SOX/Teams Group, mentored by SR.SDE. Yi Jiang & SDE II Xiangyu
+      location: Suzhou, China
+      details: |
+        Developed the Teams AI Rehearsal module leveraging LLMs to generate multi-dimensional feedback 
+        from meeting content, and integrated the results into an interactive React-based radar chart to enhance user experience. (Typescript & React)
+
+
     - role: Research Intern
       time: Nov. 2022 - Apr. 2023
       location: Beijing, China
@@ -99,7 +110,7 @@ experiences:
       time: Jul. 2022 - Oct. 2022
       company: |
         Microsoft (Microsoft Software Technology Center Asia)
-        <br>Data and Analysis Group (DnA), mentored by SR.SDE. Guo Yi
+        <br>M365/DnA Group, mentored by SR.SDE. Guo Yi
       location: Suzhou, China
       details: |
         Developed Intelligent Diagnostic Tool for troubleshooting upstream data in Teams Application, which automatically
@@ -123,7 +134,9 @@ experiences:
 #       tagline: Used network crawler to collect micro blogs for emotional analysis to judge the mental health status.
 
 awards:
-  - name: First Prize of Academic Excellence
+  - name: |
+      Excellent Student Cadre, 
+      <br>First Prize of Academic Excellence
     time: Sept. 2023 - Present
     location: Hefei, China
     committee: University of Science and Technology of China
