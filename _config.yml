@@ -2,15 +2,19 @@
 
 # Site Settings
 title: Yinnan Zhou's Homepage.
-url: 'https://github.com/yinnanzhou'
+url: 'https://yinnanzhou.github.io'
 baseurl: '' #change it according to your repository name
 description: Yinnan Zhou's Homepage.
+lang: zh-CN
+timezone: Asia/Shanghai
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: ustcblue # blue turquoise green berry orange ceramic ustcblue
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 # Tracker
 analytics:
+google_site_verification: 6XTHiKwKH8TIxAZ0U2N14uL0j2j45hyt0uhcOAm1w68
+baidu_site_verification:
 
 
 
@@ -21,6 +25,9 @@ sass:
 
 # Build settings
 compress-site: yes
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 encoding: "utf-8"
 compress_html: # - http://jch.penibelst.de/
