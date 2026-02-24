@@ -12,6 +12,32 @@ This theme is based on [sharu725/online-cv](https://github.com/sharu725/online-c
 
 I have made this into a Jekyll Theme. Checkout the live demo [here](https://online-cv.webjeda.com).
 
+## Project Structure (Refactored)
+
+The site keeps the same rendered output, but the source code is organized by responsibility:
+
+```text
+.
+├── index.html                     # Page entry
+├── _layouts/                      # Page skeleton
+├── _includes/
+│   ├── layout/                    # head/footer/scripts/analytics
+│   ├── sidebar/                   # sidebar and sidebar blocks
+│   └── sections/                  # main content sections
+├── _sass/
+│   ├── core/                      # base/mixins/responsive/print
+│   └── theme/
+│       ├── _default.scss          # style assembly
+│       └── skins/                 # color themes
+├── _data/data.yml                 # Resume content source
+├── assets/
+│   ├── css/main.scss              # SCSS entry
+│   ├── js/main.js                 # custom JS
+│   ├── images/                    # site images
+│   └── vendor/                    # third-party libs (bootstrap/font-awesome/jquery)
+└── files/                         # downloadable files (CV, favicon, etc.)
+```
+
 <table>
   <tr>
     <th>Desktop</th>

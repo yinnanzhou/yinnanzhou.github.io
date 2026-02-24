@@ -5,22 +5,21 @@
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
-{% include head.html %}
+{% include layout/head.html %}
 
 <body>
   <div class="wrapper">
     
-    {% include sidebar.html %}
+    {% include sidebar/sidebar.html %}
     <div class="main-wrapper">
         {{ content }}
     </div>
     
   </div>
 
-  {% include footer.html %}
+  {% include layout/footer.html %}
 
-{% include scripts.html %}
+{% include layout/scripts.html %}
 </body>
 
 </html>
-
