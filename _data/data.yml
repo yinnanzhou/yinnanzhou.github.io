@@ -15,7 +15,8 @@ sidebar:
   # timezone: Beijing, China
   website: yinnanzhou.github.io # do not add http://
   github: github.com/yinnanzhou
-  cv: ./files/cv.pdf
+  cv_chinese: ./files/周荫南-中文简历.pdf
+  cv_english: ./files/YinnanZhou-cv.pdf
   # linkedin:
   # xing:
   # telegram: # add your nickname without '@' sign
@@ -39,9 +40,13 @@ sidebar:
 career-profile:
   title: Biography
   summary: |
-    I am a M.Sc. student in School of Computer Science and Technology at University of Science and Technology of China (USTC), advised by Prof. <a href="https://cs.ustc.edu.cn/2020/0905/c23239a460148/page.htm">Hao Zhou</a>. 
-    <br>Before I start my M.Sc. degree, I received my bachelor degree in School of Computer Science and Technology at Soochow University in Jun. 2023. 
-    <br>My research interests artificial intelligence and wireless sensing.
+    I am a Master’s student in the School of Computer Science and Technology at the <b>University of Science and Technology of China</b> (<b>USTC</b>), advised by Prof. <a href="https://cs.ustc.edu.cn/2020/0905/c23239a460148/page.htm"><b>Hao Zhou</b></a>. 
+    <br>
+    <br>During my master’s studies, I worked as a visiting research intern at the <b>National Institute of Informatics</b> (<b>NII</b>) in Tokyo for three months, advised by <a href="https://researchmap.jp/keiusei">Prof. <b>Yusheng Ji</b></a> (<b>IEEE Fellow</b>). 
+    <br>
+    <br>Before starting my master’s degree, I received my bachelor’s degree from the School of Computer Science and Technology at <b>Soochow University</b> in June 2023. 
+    <br>
+    <br>My research interests include <b>artificial intelligence</b> and <b>wireless sensing</b>.
 
 education:
   - degree: M.Sc. in Computer Science and Technology
@@ -63,6 +68,15 @@ education:
 #     # title: Publications
 
 mypublications:
+  - name: |
+      Using Cross-modal Distillation to Improve mmWave-based Speech Recognition
+    conference: |
+      IEEE International Conference on Computer Communications
+      <br>(INFOCOM 2026) Workshop
+    time: Mar. 2026
+    location: Tokyo, Japan
+    authors: <b>Yinnan Zhou</b>, Lingyu Wang, Hao Zhou, Qiyue Li, Jie Li, Yusheng Ji
+
   - name: |
       SaTrack: LoS/NLoS State-Aware WiFi Indoor Tracking System
     conference: |

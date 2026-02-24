@@ -31,9 +31,11 @@
     </li>
     {% endif %}
 
-    {% if sidebar.cv %}
+    {% if sidebar.cv or sidebar.cv_chinese or sidebar.cv_english %}
     <li class="cv"><i class="fas fa-moon"></i>
-      <a href="{{ sidebar.cv }}" target="_blank">cv</a>
+      cv
+      [<a href="{{ sidebar.cv_english | default: './files/YinnanZhou-cv.pdf' }}" target="_blank">English</a>]
+      [<a href="{{ sidebar.cv_chinese | default: './files/周荫南-中文简历.pdf' }}" target="_blank">Chinese</a>]
     </li>
     {% endif %}
 
